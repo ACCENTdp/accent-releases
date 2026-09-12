@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "version": "0.8.0",
-  "published_at": "2026-09-11T00:10:44.716920+00:00",
-  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.8.0/ACCENT-Setup-0.8.0-x64.exe",
-  "sha256": "14cafdf512dbe092bbe703e00f20474d90655a7d8c3e0e8055ace7e3200bd4fe",
-  "size": 20008839,
+  "version": "0.8.1",
+  "published_at": "2026-09-12T17:56:00.988385+00:00",
+  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.8.1/ACCENT-Setup-0.8.1-x64.exe",
+  "sha256": "d8e32c956393b957450110ab538ab920566d2a07a25ab4764bfdcfcf9ff7c4ed",
+  "size": 20007105,
   "release_notes": [
-    "Оновлення Windows ACCENT із перевіркою SHA-256 та резервною копією бази.",
-    "Локальний вибір каналів Stable і Beta."
+    "Перевірка оновлення ACCENT по повітрю.",
+    "Перевірка резервної копії, SHA-256 та автоматичного перезапуску."
   ],
   "minimum_supported_version": "0.7.8",
-  "source_commit": "8c6c801244f6733d1b0dc0565cde127c48e48bb7"
+  "source_commit": "a37c1b33ba6d8669fdee011114d18b1e1911a2be"
 }
