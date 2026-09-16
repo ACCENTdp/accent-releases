@@ -1,15 +1,19 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "version": "0.8.1",
-  "published_at": "2026-09-12T17:56:00.988385+00:00",
-  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.8.1/ACCENT-Setup-0.8.1-x64.exe",
-  "sha256": "d8e32c956393b957450110ab538ab920566d2a07a25ab4764bfdcfcf9ff7c4ed",
-  "size": 20007105,
+  "version": "0.9.0",
+  "published_at": "2026-09-16T15:59:10.054249+00:00",
+  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.9.0/ACCENT-Setup-0.9.0-x64.exe",
+  "sha256": "4b9865064392402ecd69267a6a17d64aeea2a2ea07470a36481ad9172538236c",
+  "size": 20135275,
   "release_notes": [
-    "Перевірка оновлення ACCENT по повітрю.",
-    "Перевірка резервної копії, SHA-256 та автоматичного перезапуску."
+    "Резервні копії та безпечне відновлення бази.",
+    "Діагностика ACCENT в Admin і безпечний статус у Monitor.",
+    "Звірка PRE_EVENT з офіційними даними FlyMark.",
+    "Нові офіційні категорії потребують підтвердження перед появою у Photographer.",
+    "Збереження вимкнених категорій та раніше підтвердженої роботи.",
+    "Покращення надійності оновлень, відновлення та операторських перевірок."
   ],
   "minimum_supported_version": "0.7.8",
-  "source_commit": "a37c1b33ba6d8669fdee011114d18b1e1911a2be"
+  "source_commit": "fe643b5fdafaafceaa522997bad5001bae7b9bec"
 }
