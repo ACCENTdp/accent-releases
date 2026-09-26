@@ -1,19 +1,15 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "version": "0.10.2",
-  "published_at": "2026-09-26T04:20:18.460790+00:00",
-  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.10.2/ACCENT-Setup-0.10.2-x64.exe",
-  "sha256": "34106802b7fab2bcff0c125fc56bb584f55e31570f55b53feb66a61f386bd23b",
-  "size": 20223240,
+  "version": "0.10.3",
+  "published_at": "2026-09-26T16:05:52.978713+00:00",
+  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.10.3/ACCENT-Setup-0.10.3-x64.exe",
+  "sha256": "f96d1c07f60eaf0f005a70e409fb90d0d8086a08a156123e45ea243bdefd44a6",
+  "size": 20222800,
   "release_notes": [
-    "ACCENT 0.10.2 Beta — виправлення оновлення OFFICIAL-змагань FlyMark.",
-    "Виправлено надто повільне оновлення завершених OFFICIAL-змагань: отримання структури по відділеннях більше не очікує близько 60 секунд між кожним запитом.",
-    "Запити структури залишаються послідовними й обмеженими; безпечний інтервал Live-полінгу щонайменше 60 секунд збережено.",
-    "Історичні /details, учасники, результати та matching завантажуються після завершення структури як раніше.",
-    "Виправлення перевірено на реальному завершеному турнірі FlyMark: 5 відділень, 108 категорій, повний імпорт результатів успішний.",
-    "Збережено функціональність 0.10.1. Beta ще потребує перевірки Live на реальному активному турнірі."
+    "ACCENT 0.10.3 Beta",
+    "Виправлено помилку оновлення FlyMark, коли збережений застарілий details ID міг зупинити ручне та автоматичне оновлення."
   ],
   "minimum_supported_version": "0.7.8",
-  "source_commit": "7043fb56316327919e8a89c342cc8463bceeca11"
+  "source_commit": "ce87b98c21a3af976a0a32448c9b14f2fe11bc63"
 }
