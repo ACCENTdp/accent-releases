@@ -1,15 +1,20 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "version": "0.10.3",
-  "published_at": "2026-09-26T16:05:52.978713+00:00",
-  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.10.3/ACCENT-Setup-0.10.3-x64.exe",
-  "sha256": "f96d1c07f60eaf0f005a70e409fb90d0d8086a08a156123e45ea243bdefd44a6",
-  "size": 20222800,
+  "version": "0.10.4",
+  "published_at": "2026-09-26T20:36:32.767720+00:00",
+  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.10.4/ACCENT-Setup-0.10.4-x64.exe",
+  "sha256": "f91c560b6bdbf0be2365f2528689b0208e7f8433986e446e4cedbcfb6f49b02e",
+  "size": 20228393,
   "release_notes": [
-    "ACCENT 0.10.3 Beta",
-    "Виправлено помилку оновлення FlyMark, коли збережений застарілий details ID міг зупинити ручне та автоматичне оновлення."
+    "ACCENT 0.10.4 Beta",
+    "Виправлено відображення часу розкладу для локального часового поясу Europe/Kyiv.",
+    "Нумерація блоків програми тепер відповідає операторській: перший блок має №1.",
+    "Виправлено підрахунок \"Ще точно\": враховуються перші гарантовані тури майбутніх категорій та підтверджені наступні тури.",
+    "Завершені тури більше не враховуються у залишку.",
+    "Live-розклад під час активного турніру оновлюється приблизно кожні 15 секунд.",
+    "Збережено виправлення 0.10.3 для застарілих FlyMark details ID."
   ],
   "minimum_supported_version": "0.7.8",
-  "source_commit": "ce87b98c21a3af976a0a32448c9b14f2fe11bc63"
+  "source_commit": "78092e816ac89e0d07726316af3c29f0b907d4d5"
 }
