@@ -1,21 +1,17 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "version": "0.12.1",
-  "published_at": "2026-10-09T20:52:27.525958+00:00",
-  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.12.1/ACCENT-Setup-0.12.1-x64.exe",
-  "sha256": "2b783eaa953d9970c2f0f4069453aa12d98045e76c98118314de53b9565b9a56",
-  "size": 20292710,
+  "version": "0.12.2",
+  "published_at": "2026-10-10T20:18:33.095652+00:00",
+  "installer_url": "https://github.com/ACCENTdp/accent-releases/releases/download/v0.12.2/ACCENT-Setup-0.12.2-x64.exe",
+  "sha256": "635a2bba30ca9989a39863dbba96178b1f41e848f6f739c6ee1cdddfa049cbac",
+  "size": 20292100,
   "release_notes": [
-    "ACCENT 0.12.1 RC",
-    "Оновлення PRE_EVENT більше не завершується помилкою лише через перевищення ліміту новим зв’язком замовлення з категорією.",
-    "Замовлення клієнтів, раніше прийняті та явно вимкнені зв’язки з категоріями зберігаються.",
-    "Нові зв’язки, для яких немає місця, отримують стан DEFERRED без резервування місця; оператор може переглянути їх і явно повторити допуск.",
-    "Суворий атомарний контроль окремих лімітів PHOTO та VIDEO збережено; відкладені зв’язки не допускаються автоматично після перезапуску.",
-    "База даних переходить зі схеми 3 на схему 4 після обов’язкового створення та перевірки резервної копії.",
-    "Повернення до 0.12.0 потребує сумісної копії схеми 3 й не зберігає внесені після неї замовлення та зміни; новіші точки відновлення слід зберегти.",
-    "0.12.1 RC залишається Beta-релізом перед перевіркою на робочому турнірі та ACCENT 1.0.0."
+    "ACCENT 0.12.2 RC",
+    "LIVE schedules retain explicitly category-unlinked, program-linked rows instead of rejecting the entire schedule.",
+    "Unresolved category identities remain unavailable for trusted AUTO selection; mapped current items continue to work.",
+    "No database schema change. Existing competitions, orders and PHOTO/VIDEO limit semantics are unchanged."
   ],
   "minimum_supported_version": "0.7.8",
-  "source_commit": "302987824088336fe3ad478701ba3232e2cb523f"
+  "source_commit": "899dff042e1a652637278279c91a293c62b6dda3"
 }
